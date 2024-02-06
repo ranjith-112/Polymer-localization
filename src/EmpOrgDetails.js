@@ -9,8 +9,8 @@ import '@polymer/paper-button/paper-button.js';
 import '@polymer/iron-form/iron-form.js'
 import '@polymer/paper-card/paper-card.js'
 
-import { CommonModule } from "./CommonModule";
-class EmpOrgDetails extends CommonModule {
+import { LocalizedModule } from "./LocalizedModule";
+class EmpOrgDetails extends LocalizedModule {
 
   static get template() {
     return html` <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">

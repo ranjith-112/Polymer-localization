@@ -9,9 +9,9 @@ import '@polymer/paper-card/paper-card.js'
 import '@polymer/app-route/app-location.js';
 import '@polymer/app-route/app-route.js';
 import '@polymer/iron-location/iron-location.js'
-import { CommonModule } from "./CommonModule";
+import { LocalizedModule } from "./LocalizedModule";
 
-class OrganisationdetailsForm extends CommonModule {
+class OrganisationdetailsForm extends LocalizedModule {
 
     static get template() {
         return html`

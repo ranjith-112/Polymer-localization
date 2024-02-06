@@ -8,6 +8,8 @@ import '@polymer/paper-button/paper-button.js';
 import './EmployeeDetails.js';
 import './OrganisationdetailsForm.js';
 
+
+
 class Main extends PolymerElement {
   static get template() {
     return html`
@@ -26,6 +28,7 @@ class Main extends PolymerElement {
       name="employeeDetails" 
       on-custom-submit="getDatafromEmployeedetails"
      reset="{{reset}}"
+     on-custom-submit3="loadLanguage"
     ></employee-details>
     <organisation-element 
       name="organisationDetails" 
@@ -69,10 +72,13 @@ class Main extends PolymerElement {
         reflectToAttribute: true
       },
       language:{
-        type:String
+        type:String,
+    
+        
       }
     }
   }
+
 
   getDatafromEmployeedetails(event) {
    

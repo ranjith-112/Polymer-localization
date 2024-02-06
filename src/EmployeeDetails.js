@@ -10,9 +10,9 @@ import '@polymer/app-route/app-location.js';
 import '@polymer/app-route/app-route.js';
 import '@polymer/paper-slider/paper-slider.js';
 
-import { CommonModule } from "./CommonModule.js";
+import { LocalizedModule } from "./LocalizedModule.js";
 
-class EmployeeDetails extends CommonModule  {
+class EmployeeDetails extends LocalizedModule  {
 
   static get template() {
     return html`
@@ -77,10 +77,12 @@ class EmployeeDetails extends CommonModule  {
     <paper-item value="en">English</paper-item>
     <paper-item value="fr">French</paper-item>
     <paper-item value="gr">Greek</paper-item>
+    <paper-item value="er">Ereek</paper-item>
   </paper-listbox>
 </paper-dropdown-menu>
 </div>
 </div>
+<div>aaa{{localize('hi')}}</div>
 </div >
         <div class='header'>
         
@@ -174,7 +176,7 @@ class EmployeeDetails extends CommonModule  {
         tail="{{subRoute}}"
       ></app-route>
    <!--   <paper-button class="btn btn-primary me-2" raised on-click="papersilder">papersilder</paper-button> -->
-
+    
     `;
   }
   static get properties() {
@@ -227,10 +229,16 @@ class EmployeeDetails extends CommonModule  {
       },
       language: {
         type: String,
-        value: 'en',
+        value:'en',
+     
+        
       }
     };
   }
+  // _changedlanguage(){
+  //   alert(this.language)
+  //   this.dispatchEvent(new CustomEvent("custom-submit3", { detail: this.language }))
+  // }
   constructor() {
     super();
 
@@ -249,7 +257,7 @@ class EmployeeDetails extends CommonModule  {
   // }
   connectedCallback() {
     super.connectedCallback();
-    this.loadResources(this.resolveUrl('locales.json'));
+
     this._loadErrorMessages();
   }
 

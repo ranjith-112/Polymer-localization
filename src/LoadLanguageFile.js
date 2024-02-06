@@ -3,7 +3,7 @@ import { PolymerElement, html } from "@polymer/polymer";
 import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
 import '@polymer/paper-listbox/paper-listbox.js';
 import './ReadLanguageFile.js'
-import { CommonModule } from "./CommonModule.js";
+import { CommonModule } from "./LocalizedModule.js";
 import '@polymer/paper-item/paper-item.js'; 
   class LoadLanguageFile extends CommonModule  {
     static get template(){
