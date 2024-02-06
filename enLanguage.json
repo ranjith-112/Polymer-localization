@@ -1,0 +1,30 @@
+{
+    "en": {
+        "greeting": "Hello!",
+        "welcome": "Welcome to our application.",
+        "button": "Click me",
+        "message": "This is a sample message.",
+        "error": "An error occurred.",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "success": "Operation successful!",
+        "logout": "Logout",
+        "Name": "Name",
+        "Email": "Email",
+        "Phone": "Phone",
+        "DOB": "Date of Birth",
+        "AD1": "Address Line 1",
+        "AD2": "Address Line 2",
+        "City": "City",
+        "State": "State",
+        "Reset": "Reset",
+        "Submit": "Submit",
+        "Proceed": "Proceed",
+        "Manager": "Manager",
+        "OrganisationName": "OrganisationName",
+        "Address": "Address",
+        "Back": "Back"
+    }
+   
+    
+}

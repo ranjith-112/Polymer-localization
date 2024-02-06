@@ -1,0 +1,28 @@
+{
+    
+        "greeting": "Bonjour !",
+        "welcome": "Bienvenue dans notre application.",
+        "button": "Cliquez sur moi",
+        "message": "Ceci est un message d'exemple.",
+        "error": "Une erreur s'est produite.",
+        "submit": "Soumettre",
+        "cancel": "Annuler",
+        "success": "Opération réussie !",
+        "logout": "Se déconnecter",
+        "Name": "Nom",
+        "Email": "E-mail",
+        "Phone": "Téléphone",
+        "DOB": "Date de naissance",
+        "AD1": "Adresse ligne 1",
+        "AD2": "Adresse ligne 2",
+        "City": "Ville",
+        "State": "État",
+        "Reset": "Réinitialiser",
+        "Submit": "Soumettre",
+        "Proceed": "Procéder",
+        "Manager": "Responsable",
+        "OrganisationName": "Nom de l'organisation",
+        "Address": "Adresse",
+        "Back": "Retour"
+    
+}
